@@ -8,7 +8,7 @@ img {
   height: 100%;
 }
 h1 {text-align: center}
-.top_news{
+.top_news {
   display: flex;
   flex-wrap: wrap;
 }

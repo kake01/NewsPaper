@@ -1,27 +1,26 @@
-
 body {
   background-color: #f8f9fa;
   margin: unset;
 }
 .news_1_content h1 {
-  /* font-size: 2rem;
-  margin-top: 2rem; */
   margin: unset;
   margin-top: 5px;
 }
-img {
+.news_1 img {
+  object-fit: contain;
+  width: 25%;
+  height: 25%;
+  float: left;
+}
+.undergraduate_introduction img {
+  object-fit: contain;
   width: 100%;
   height: 100%;
-  object-fit: contain;
 }
 .news_1 {
   display: flex;
   flex-wrap: wrap;
-}
-.news_1 img {
-  width: 25%;
-  height: 25%;
-  float: left;
+  margin-left: 5%;
 }
 .news_1_content {
   height: 50%;
@@ -33,32 +32,40 @@ img {
   flex-wrap: wrap;
 }
 .news_2_content {
-  height: 50%;
   margin-left: 10%;
   flex: 0 0 50%;
+  margin: 10px 15px;
+  padding: 10px;
+  /* 点線 */
+  border-right-style: dashed;
 }
 .news_2_list {
   display: flex;
   flex-wrap: wrap;
+}
+/* 枠組み */
+.news_1_content, .sikeida, .virus, .undergraduate_introduction {
+  margin: 10px 15px;
+  padding: 10px;
+  border: medium solid ;
 }
 .undergraduate_introduction {
   height: 50%;
   flex: 0 0 35%;
 }
 
-/* ウィンドウ幅が0〜479pxの場合に適用するCSS */
-@media screen and ( max-width:690px )
+@media screen and ( max-width:730px)
 {
   h1 {text-align: center;}
-  /* p {
-    margin: 0 5%;
-  } */
+
+  .news_1 {margin: unset;}
   .news_1_content {
-    flex:0 1 auto;
+    /* flex:0 1 auto; */
     margin: 0 5%;
   }
   .news_2_content {
     flex:0 1 auto;
+    border: 3px;
     margin: 0 5%;
   }
   .news_2{

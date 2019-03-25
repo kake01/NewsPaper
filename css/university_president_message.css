@@ -12,18 +12,17 @@ img {
   flex: 0 0 45%;
   margin-left: 3%;
 }
-h1 ,p{
-  margin: unset;
-}
+h1 ,p {margin: unset;}
 .news_list, .text_1_2 {
   display: flex;
   flex-wrap: wrap;
 }
-.message{
+.message {
   margin-top:5%;
   margin-left: 1%;
   flex: 0 0 50%;
 }
+
 .text_1 {
   flex: 0 0 45%;
 }
@@ -35,18 +34,19 @@ h1 ,p{
 @media screen and ( max-width:610px )
 {
   h1 {text-align: center;}
-  .img {
-    margin: 0 5%;
-  }
-  .news_list, .text_1_2 {
-      display:inline;
-  }
+  .img {margin: 0 5%;}
+  .news_list, .text_1_2 {display:inline;}
   .text_2 {
     margin-top: 10px;
     margin-left: unset;
   }
-  .message {
-    margin: 0 5%;
+  .message{
+    margin: 10px 15px;
+    padding: 10px;
+    border: medium solid black;
   }
-
+  .text_2 {
+    border-top-style: dashed;
+    margin-top: 5px;
+  }
 }

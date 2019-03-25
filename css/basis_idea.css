@@ -23,17 +23,19 @@ img {
   margin-left: 5%;
   flex: 0 0 40%;
 }
-
+.news_1, .news_2, .news_4 {
+  margin: 10px 15px;
+  padding: 10px;
+  border: medium solid black;
+}
 /* ウィンドウ幅が0〜479pxの場合に適用するCSS */
-@media screen and ( max-width:610px )
+@media screen and ( max-width:670px )
 {
   h1 {text-align: center;}
   .news_1_2, .news_3_4 {
     display:inline;
   }
   .news_1 ,.news_2,.news_3,.news_4{
-    margin: 0 5%;
+    margin: 5% 5%;
   }
-	/* p
-	{color: #f00 ;} */
 }
