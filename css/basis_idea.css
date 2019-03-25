@@ -1,0 +1,39 @@
+body {
+  line-height: 1.5;
+  margin: 0;
+  background-color: #f8f9fa;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.news_1_2 ,.news_3_4{
+  display: flex;
+  flex-wrap: wrap;
+}
+.news_1 {
+  margin-left: 8%;
+  flex: 0 0 33%;
+}
+.news_2 {
+  flex: 0 0 50%;
+}
+.news_3,.news_4 {
+  margin-left: 5%;
+  flex: 0 0 40%;
+}
+
+/* ウィンドウ幅が0〜479pxの場合に適用するCSS */
+@media screen and ( max-width:610px )
+{
+  h1 {text-align: center;}
+  .news_1_2, .news_3_4 {
+    display:inline;
+  }
+  .news_1 ,.news_2,.news_3,.news_4{
+    margin: 0 5%;
+  }
+	/* p
+	{color: #f00 ;} */
+}

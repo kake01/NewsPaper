@@ -1,0 +1,43 @@
+body {
+  margin: unset;
+  background-color: #f8f9fa;
+}
+img {
+  width: 100%;
+  height: 40%;
+  object-fit: contain;
+}
+.news_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.news_left {
+  margin-left: 10%;
+  flex: 0 0 40%;
+}
+.news_right {
+  margin-right: 10%;
+  flex: 0 0 40%;
+}
+.opening_time p {
+  margin-bottom: 0px;
+}
+.use p {
+  margin-bottom: 0px;
+}
+/* ウィンドウ幅が0〜479pxの場合に適用するCSS */
+@media screen and ( max-width:610px )
+{
+  h1 {text-align: center;}
+  h2 {text-decoration: underline;}
+  .news_left, .news_right {
+    margin: 0 0;
+    text-align:center;
+  }
+  .news_list {
+      display:inline;
+  }
+  .main,.capacity,.opening_time,.closing_day, .use p{
+    text-align:center;
+  }
+}

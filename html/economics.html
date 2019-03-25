@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+  <title>じょっぱり経済学|赤日新聞</title>
+  <link rel="stylesheet" href="../css/economics.css">
+  <link rel="stylesheet" href="../css/menu_bar.css">
+  <script src="../lib/jquery-3.3.1.js"></script>
+  <script src="../js/menu_bar.js"></script>
+</head>
+
+<body>
+  <div class="gray">
+  </div>
+  <!-- <div class="whole"> -->
+
+    <!-- メニューバー -->
+    <nav class="navbar">
+      <ul class="nav nav-tabs">
+
+        <li role="presentation" class="active"><a href="home.html">記事一面へ</a></li>
+
+        <li role="presentation" id="dropdown">
+
+          <a class="dropdown-toggle" data-toggle="dropdown" role="button">
+            リンク一覧
+          </a>
+          <ul class="dropdown-menu" role="menu">
+
+            <li role="presentation" class="dropdown-header"><span>大学案内</span></li>
+            <li role="presentation"><a href="basis_idea.html">基本理念</a></li>
+            <li role="presentation"><a href="university_president_message.html">学長メッセージ</a></li>
+            <li role="presentation"><a href="school_song.html">校歌・学生歌</a></li>
+            <li role="presentation"><a href="campus_map.html">キャンパス/マップ</a></li>
+            <li role="presentation"><a href="library.html">付属図書館</a></li>
+            <li role="presentation"><a href="economics.html">じょっぱり経済学</a></li>
+
+            <li role="presentation" class="dropdown-header"><span>学部紹介</span></li>
+            <li role="presentation"><a href="department.html">学部紹介</a></li>
+
+            <li role="presentation" class="dropdown-header"><span>謎の挑戦状</span></li>
+            <li role="presentation"><a href="mystery_message.html" target="_blank">謎の挑戦状</a></li>
+
+            <li role="presentation" class="dropdown-header"><span>詐欺対策</span></li>
+            <li role="presentation"><a href="scam.html" target="_blank">詐欺対策</a></li>
+
+            <li role="presentation" class="dropdown-header"><span>情報学部</span></li>
+            <li role="presentation"><a href="department.html">情報学部</a></li>
+          </ul>
+        </li>
+        <li>赤日新聞</li>
+      </ul>
+    </nav>
+
+    <img src="../img/economics.png" alt="じょっぱりロゴ">
+    <!-- 記事一覧 -->
+    <div class="news_list">
+      <!--左側記事-->
+      <article class="news_1">
+        <h1 class="title">講義計画</h1>
+        <p>◎日時：平成30年×月××日～×月×日（毎週水曜日/22:40～26:10)</p>
+        <p>◎場所：青森大学　八号館「8001教室」</p>
+        <!-- テーブル -->
+        <div class="table_list">
+          <table>
+            <!--横一番上-->
+            <tr><th></th><th>日程</th><th>講師</th><th>内容</th></tr>
+            <script>
+            for (var i = 1 ; i<= 15 ; i++ ) {
+              //一番左
+              document.write ( '<tr>' ) ;
+              document.write ( '<th>' + i + '回</th>' ) ;
+              for (var j =0 ; j<=2 ; j++)
+              document.write ('<td>' + '未定' + '</td>') ;
+              document.write ( '</tr>' ) ;
+            }
+            </script>
+          </table>
+        </div>
+        <p>※日程・内容等未定でございますので予めご了承願います。</p>
+      </article>
+      <!--右側記事-->
+      <article class="news_2">
+        <div class="application">
+          <h1 class="title"> 受講申し込み方法 </h1>
+          <p>受講お希望の方は</p>
+          <strong>①希望講義日・内容 ②ご氏名 ③お電話番号</strong>
+          <p>を明記の上、専用アドレス</p>
+          <span style="color: blue">********@aomori-u.ac.us</span>
+          <p>までメールでお申し込み下さい。</p>
+
+          <p>※申し込み方法はメールのみとなりますので、ご了承下さい。</p>
+          <p>※申し込みの締め切りは、講義の3日前までです。
+            20名を超えた場合には、受講できない旨の連絡をメールで返信いたしますので
+            <span style="color: blue">aomori-u.ac.jp</span>
+            からのメールを受信できるように設定して下さい。
+          </p>
+        </div>
+
+        <div class="inquiry">
+          <h1 class="title">お問い合わせ</h1>
+          <strong>青森大学ニセサイト企画部第8382号室 6423-****問い合わせしたくない事務所</strong>
+          <p>〒***-**** 青森県~~~~~~99番地123-456（マイルハイビル34453F）</p>
+          <p>TEL.****-**-666 FAQ.666*-66-****</p>
+        </div>
+      </article>
+    </div>
+  <!-- </div> -->
+</body>
+</html>

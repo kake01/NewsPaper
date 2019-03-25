@@ -1,0 +1,28 @@
+.card-body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* ここからスライドに関して */
+.card {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,.125);
+}
+.text-body {
+  color: #155724;
+  background-color: #d4edda;
+}
+.text-body {
+  margin-bottom: 1rem;
+}
+.text-body {
+  padding: .75rem 1.25rem;
+}
+/* 表示のスイッチ */
+/* .collapse:not(.show) {
+  display: none;
+} */

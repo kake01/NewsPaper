@@ -1,0 +1,28 @@
+body {
+  background-color: #f8f9fa;
+  margin: unset;
+}
+h5 {
+  font-size: medium;
+}
+.song_list {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 0 40%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.song_tab {
+  flex: 0 0 40%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.song_common {
+  flex: 0 0 50%;
+}
+@media screen and ( max-width:610px )
+{
+  .song_tab {
+    flex: 0 0 60%;
+  }
+}

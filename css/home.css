@@ -1,0 +1,71 @@
+
+body {
+  background-color: #f8f9fa;
+  margin: unset;
+}
+.news_1_content h1 {
+  /* font-size: 2rem;
+  margin-top: 2rem; */
+  margin: unset;
+  margin-top: 5px;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.news_1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.news_1 img {
+  width: 25%;
+  height: 25%;
+  float: left;
+}
+.news_1_content {
+  height: 50%;
+  margin-left: 10%;
+  flex: 0 0 80%;
+}
+.news_2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.news_2_content {
+  height: 50%;
+  margin-left: 10%;
+  flex: 0 0 50%;
+}
+.news_2_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.undergraduate_introduction {
+  height: 50%;
+  flex: 0 0 35%;
+}
+
+/* ウィンドウ幅が0〜479pxの場合に適用するCSS */
+@media screen and ( max-width:690px )
+{
+  h1 {text-align: center;}
+  /* p {
+    margin: 0 5%;
+  } */
+  .news_1_content {
+    flex:0 1 auto;
+    margin: 0 5%;
+  }
+  .news_2_content {
+    flex:0 1 auto;
+    margin: 0 5%;
+  }
+  .news_2{
+    display:inline;
+  }
+  .undergraduate_introduction {
+    flex:0 1 auto;
+    margin: 0 5%;
+  }
+}

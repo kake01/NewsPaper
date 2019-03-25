@@ -1,0 +1,52 @@
+body {
+  background-color: #f8f9fa;
+  margin: unset;
+}
+img {
+  width: 100%;
+  height: 100%;
+  margin-top:5%;
+  object-fit: contain;
+}
+.img {
+  flex: 0 0 45%;
+  margin-left: 3%;
+}
+h1 ,p{
+  margin: unset;
+}
+.news_list, .text_1_2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.message{
+  margin-top:5%;
+  margin-left: 1%;
+  flex: 0 0 50%;
+}
+.text_1 {
+  flex: 0 0 45%;
+}
+.text_2 {
+  margin-left: 3%;
+  flex: 0 0 45%;
+}
+/* ウィンドウ幅が0〜479pxの場合に適用するCSS */
+@media screen and ( max-width:610px )
+{
+  h1 {text-align: center;}
+  .img {
+    margin: 0 5%;
+  }
+  .news_list, .text_1_2 {
+      display:inline;
+  }
+  .text_2 {
+    margin-top: 10px;
+    margin-left: unset;
+  }
+  .message {
+    margin: 0 5%;
+  }
+
+}

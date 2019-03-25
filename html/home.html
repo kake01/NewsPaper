@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ja">
+<!-- TODO:情報学部がかぶってるから,メニューから一つ消す -->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+  <title>今日の新聞|赤日新聞</title>
+  <link rel="stylesheet" href="../css/home.css">
+  <link rel="stylesheet" href="../css/menu_bar.css">
+  <script src="../lib/jquery-3.3.1.js"></script>
+  <script src="../js/menu_bar.js"></script>
+</head>
+
+<body>
+  <div class="gray">
+  </div>
+
+  <nav class="navbar">
+    <ul class="nav nav-tabs">
+
+      <li role="presentation" class="active"><a href="home.html">記事一面へ</a></li>
+
+      <li role="presentation" id="dropdown">
+
+        <a class="dropdown-toggle" data-toggle="dropdown" role="button">
+          リンク一覧
+        </a>
+
+        <ul class="dropdown-menu" role="menu">
+
+          <li role="presentation" class="dropdown-header"><span>大学案内</span></li>
+          <li role="presentation"><a href="basis_idea.html">基本理念</a></li>
+          <li role="presentation"><a href="university_president_message.html">学長メッセージ</a></li>
+          <li role="presentation"><a href="school_song.html">校歌・学生歌</a></li>
+          <li role="presentation"><a href="campus_map.html">キャンパス/マップ</a></li>
+          <li role="presentation"><a href="library.html">付属図書館</a></li>
+          <li role="presentation"><a href="economics.html">じょっぱり経済学</a></li>
+
+          <li role="presentation" class="dropdown-header"><span>学部紹介</span></li>
+          <li role="presentation"><a href="department.html">学部紹介</a></li>
+
+          <li role="presentation" class="dropdown-header"><span>謎の挑戦状</span></li>
+          <li role="presentation"><a href="mystery_message.html" target="_blank">謎の挑戦状</a></li>
+
+          <li role="presentation" class="dropdown-header"><span>詐欺対策</span></li>
+          <li role="presentation"><a href="scam.html" target="_blank">詐欺対策</a></li>
+
+          <li role="presentation" class="dropdown-header"><span>情報学部</span></li>
+          <li role="presentation"><a href="department.html">情報学部</a></li>
+        </ul>
+      </li>
+      <li>赤日新聞</li>
+    </ul>
+  </nav>
+
+  <!-- ニュースの記事一覧 -->
+  <div class="news_list">
+    <!--ニュース1-->
+    <article class="news_1">
+      <div class="news_1_content">
+        <h1 class="title">青森大学、50周年を記念し、公開授業を実施!地域の方に大学案内を</h1>
+        <img src="../img/university.png" alt="大学案内">
+        <p>2018年で創立50周年を迎えた青森大学は50周年を境目に
+          <a href="basis_idea.html">基本理念改定</a>
+          が噂されている。
+          現在、赤日新聞では事実確認を取っている。
+          また、
+          <a href="campus_map.html">キャンパスマップの拡大/アクセスの増加</a>
+          や付属図書館の書籍増加を実施した。
+          専門家は施設の充実を図ることで、入学生増やす作戦だと読んでいる。
+          しかし
+          <a href="library.html">付属図書館</a>
+          での書籍大量入荷を実施しても図書館利用者は増えていない。
+          そして、最後に学生たちが
+          <a href="school_song.html">校歌・学生歌</a>
+          を熱唱した。記念式典での
+          <a href="university_president_message.html">学長の大変有難いメッセージ!</a>
+          学生には届く事はなかった。
+          最後に学長は、青森大学の講義の一つである
+          <a href="economics.html">じょっぱり経済学</a>
+          を中心に更に地域と関わる大学へ発展する事を宣言した。
+        </p>
+      </div>
+    </article>
+
+    <!--ニュース2-->
+    <div class="news_2">
+      <div class="news_2_content">
+        <div class="news_2_list">
+          <!--シケイダ3301-->
+          <article class="sikeida">
+            <h1 class="title">青森大学に<a href="mystery_message.html" target="_blank">謎の挑戦状</a>が…</h1>
+            <p>平成29年*月*日に青森大学に謎の挑戦状が届けられた。
+              現在謎を解くために青森大学の精鋭1000名が謎解きをしている
+              また、送り主の捜索を事務課と就職課が総力を挙げている。
+              しかし、送り主の手がかりは一向につかめていない。
+              そのため、事務課と就職課は現在の事態を重く見ており、探偵に依頼をするか検討している。
+            </p>
+          </article>
+          <!-- ウィルス警告のページ -->
+          <article class="virus">
+            <h1 class="title">青森大学ソフトウェア情報学部の学生が
+              <a href="scam.html" target="_blank">詐欺対策</a>
+              に尽力!
+            </h1>
+            <p>平成29年の特殊詐欺被害状況は、認知件数が56件、被害額が約7,200万円（前年比約マイナス１億3,100万円）であり、
+              認知件数、被害金額ともに減少した。しかし、電子マネーを悪用した新たな手口の増加により、若者の詐欺被害が増加した。
+              この問題を解決するために、
+              青森大学ソフトウェア情報学部の生徒が詐欺被害件数を減少するために、
+              疑似詐欺被害を体験出来るサイトを作成した。
+            </p>
+          </article>
+        </div>
+      </div>
+      <!-- 学部紹介 -->
+      <article class="undergraduate_introduction">
+        <h1 class="title">これからのIT世界を支える<a href="department.html">情報学部</a>に直撃</h1>
+        <img src="../img/code.jpg" alt="コード">
+        <p>
+          赤日新聞では、これからのIT世界を支える新世である、
+          青森大学ソフトウェア情報学部の学生に独占取材をする事が出来た。
+          ソフトウェア情報学部で主席で卒業する絶対領匿名希望さんは、基礎知識を1年次にしっかりと固め、
+          2,3年次では、専門的な学習をする事により、実践的で、有用な技術を身に着けられると話した。
+        </p>
+      </article>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+html{
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  margin: unset;
+}
+.whole {
+  background-color: #dc3545;
+}
+img {
+  width: 100%;
+  height: 50%;
+  object-fit: contain;
+}
+.news_list {
+  display: flex;
+  flex-wrap: wrap;
+  height: 75%;
+}
+.bird {
+  font-size:50%;
+  flex: 0 0 50%;
+}
+.duck {
+  margin-top:20%;
+  font-size:20px;
+  color: white;
+  flex: 0 0 50%;
+}

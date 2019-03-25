@@ -1,0 +1,19 @@
+body {
+  background-color: #343a40;
+  color: #dc3545;
+}
+.error_text {
+  text-align: center;
+  margin-top: 15%;
+}
+.button_events{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 37px;
+  color: red;
+  text-shadow: 2px 7px 5px red, 0 0 1em red, 0 0 0.5em black;
+}
+.button_events:active {
+  top: 10px;
+  text-shadow: none;
+}
