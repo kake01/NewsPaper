@@ -10,47 +10,47 @@ img {
   height: 30%;
   object-fit: contain;
 }
-.news_list {
-  display: flex;
-  flex-wrap: wrap;
-}
-.news_1 {
-  margin-left: 10%;
-  flex: 0 0 40%;
-}
-.table_list {
-  width: 50%;
-  margin-right: auto;
-  margin-left: auto;
-}
 table {
   border-collapse: collapse;
   width: 100%;
   margin-bottom: 1rem;
 }
-tbody tr:nth-of-type(odd) {
-  background-color: rgba(255, 255, 255, 0.05);
+tbody tr:nth-of-type(odd) {background-color: rgba(0, 0, 0, 0.05);}
+.news_list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5% auto;
 }
-tbody tr:nth-of-type(odd) {
-  background-color: rgba(0, 0, 0, 0.05);
+.table_list {
+  width: 50%;
+  margin: 0 auto;
 }
-.news_2 {
+.news_1 {
   flex: 0 0 40%;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  margin: 0 5%;
+}
+.news_2 {flex: 0 0 40%;}
+.news_2 ol {list-style-type: lower-roman;}
+.news_1, .news_2 {
+  padding: 10px;
+  border: medium solid black;
 }
 
-/* ウィンドウ幅が0〜479pxの場合に適用するCSS */
-@media screen and ( max-width:410px )
+@media screen and ( max-width:600px )
 {
+  body {
+    padding: 10px;
+    border: medium solid black;
+  }
+  img {
+    object-fit: contain;
+    width: 90%;
+  }
   h1 {text-align: center;}
-  p {
-    text-align: center;
+  p {text-align: center;}
+  .news_1 {
+    margin: 5% 0;
   }
-  .news_list {
-  display:inline;
-  }
-  .table_list {
-    width: 70%;
-  }
+  .news_list {display:inline;}
+  .table_list {width: 70%;}
 }

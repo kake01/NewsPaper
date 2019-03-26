@@ -13,18 +13,17 @@ p {
   position:absolute;
   left: 10%;
   top: 10%;
+  display: flex;
 }
+.song_common {flex: 0 0 40%;}
 
-@media screen and ( max-width:610px )
+@media screen and ( max-width:820px )
 {
-  body {
-    background-color: #f8f9fa;
-  }
-  .song_tab {
-    flex: 0 0 60%;
-  }
+  body {background-color: #f8f9fa;}
+  .song_tab {flex: 0 0 60%;}
   .lyric {
+    display: inline;
     position:sticky;
     text-align: center;
-    }
+  }
 }

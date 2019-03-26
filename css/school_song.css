@@ -17,12 +17,8 @@ h5 {
   margin-right: auto;
   margin-left: auto;
 }
-.song_common {
-  flex: 0 0 50%;
-}
-@media screen and ( max-width:610px )
+.song_common {flex: 0 0 50%;}
+@media screen and (max-width:610px)
 {
-  .song_tab {
-    flex: 0 0 60%;
-  }
+  .song_tab {flex: 0 0 60%;}
 }

@@ -18,23 +18,35 @@ h1 {text-align: center}
 }
 .news_1 {
   flex: 0 0 50%;
+  margin: 10px 15px;
+  padding: 10px;
+  border: medium solid black;
 }
 .news_2 {
   flex: 0 0 35%;
-  margin-left: 15%;
+  margin-left: 6%;
+  padding: 10px;
+  border: medium solid black;
 }
-.img_1 ,.img_2{
+.img_1, .img_2{
   margin-left: 8%;
   flex: 0 0 35%;
 }
-/* ウィンドウ幅が0〜479pxの場合に適用するCSS */
-@media screen and ( max-width:610px )
+
+@media screen and ( max-width:800px )
 {
   .img_1, .img_2 {
   }
-  margin-left: unset;
+  body {
+    padding: 10px;
+    border: medium solid black;
+  }
+  img {
+    object-fit: contain;
+    width: 90%;
+  }
   h1 {text-align: center;}
   .top_news, .under_news {display:inline;}
   .text_2 {margin-top: 10px;}
-  .news_2 {margin: unset;}
+  .news_2 {margin: 15px;}
 }
