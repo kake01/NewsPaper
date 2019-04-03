@@ -2,15 +2,15 @@ body {
   background-color: #f8f9fa;
   margin: unset;
 }
+.news_1 img {
+  width: 25%;
+  height: 25%;
+  object-fit: contain;
+  float: left;
+}
 .news_1_content h1 {
   margin: unset;
   margin-top: 5px;
-}
-.news_1 img {
-  object-fit: contain;
-  width: 25%;
-  height: 25%;
-  float: left;
 }
 .undergraduate_introduction img {
   object-fit: contain;
@@ -54,23 +54,16 @@ body {
   flex: 0 0 35%;
 }
 
-@media screen and ( max-width:730px)
-{
+@media screen and (max-width:730px){
   h1 {text-align: center;}
-
   .news_1 {margin: unset;}
-  .news_1_content {
-    /* flex:0 1 auto; */
-    margin: 0 5%;
-  }
+  .news_1_content {margin: 0 5%;}
   .news_2_content {
     flex:0 1 auto;
     border: 3px;
     margin: 0 5%;
   }
-  .news_2{
-    display:inline;
-  }
+  .news_2{display:inline;}
   .undergraduate_introduction {
     flex:0 1 auto;
     margin: 0 5%;

@@ -16,9 +16,5 @@
   color: #155724;
   background-color: #d4edda;
 }
-.text-body {
-  margin-bottom: 1rem;
-}
-.text-body {
-  padding: .75rem 1.25rem;
-}
+.text-body {margin-bottom: 1rem;}
+.text-body {padding: .75rem 1.25rem;}

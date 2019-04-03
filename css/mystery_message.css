@@ -28,3 +28,11 @@ img {
   color: white;
   flex: 0 0 50%;
 }
+
+@media screen and (max-width:1160px){
+  .bird {margin: 0 auto;}
+  .duck {
+    flex: 0 0 75%;
+    margin: 0 auto;
+  }
+}

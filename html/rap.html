@@ -14,15 +14,15 @@
 		<button type="button" name="button" onClick="sound()">音楽再生</button>
 		<button type="button" name="button" onClick="stop()">音楽停止</button>
 
-	<video id="bg-video" autoplay loop>
-		<source src="../raw/DJ.mp4" type="video/mp4"></source>
+	<video id="bg-video" loop>
+		<source src="../raw/DJ.mp4" type="video/mp4">
 	</video>
 	<audio id="sound" loop>
-		<source src="../raw/not_a_loser.mp3" autoplay loop></source>
+		<source src="../raw/not_a_loser.mp3" type="audio/mp3">
 	</audio>
 
 	<!-- 歌詞 -->
-	<section class="lyric">
+	<div class="lyric">
 		<div class="song_common">
 			<p>前回の作成したのはdiv,div,div!</p>
 			<p>まじ書き方,引く</p>
@@ -48,6 +48,6 @@
 			<p>全部嘘だぜ</p>
 			<p>i love you</p>
 		</div>
-	</section>
+	</div>
 </body>
 </html>

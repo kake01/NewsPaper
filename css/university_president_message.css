@@ -22,17 +22,13 @@ h1 ,p {margin: unset;}
   margin-left: 1%;
   flex: 0 0 50%;
 }
-
-.text_1 {
-  flex: 0 0 45%;
-}
+.text_1 {flex: 0 0 45%;}
 .text_2 {
   margin-left: 3%;
   flex: 0 0 45%;
 }
-/* ウィンドウ幅が0〜479pxの場合に適用するCSS */
-@media screen and ( max-width:610px )
-{
+
+@media screen and (max-width:610px){
   h1 {text-align: center;}
   .img {margin: 0 5%;}
   .news_list, .text_1_2 {display:inline;}

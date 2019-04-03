@@ -12,7 +12,6 @@ p {
   color: red;
   margin: unset;
 }
-
 button {
   text-align: center;
   background: blue;
@@ -20,7 +19,6 @@ button {
   border-bottom: 4px solid #666;
   color: #FFF;
 }
-
 .lyric {
   position:absolute;
   left: 10%;
@@ -29,8 +27,7 @@ button {
 }
 .song_common {flex: 0 0 40%;}
 
-@media screen and (max-width:820px)
-{
+@media screen and (max-width:820px){
   body {background-color: #f8f9fa;}
   button {
     width: 100px;

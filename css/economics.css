@@ -15,6 +15,10 @@ table {
   width: 100%;
   margin-bottom: 1rem;
 }
+.attention {
+  color: blue;
+  font-size: large;
+}
 tbody tr:nth-of-type(odd) {background-color: rgba(0, 0, 0, 0.05);}
 .news_list {
   display: flex;
@@ -36,8 +40,7 @@ tbody tr:nth-of-type(odd) {background-color: rgba(0, 0, 0, 0.05);}
   border: medium solid black;
 }
 
-@media screen and ( max-width:600px )
-{
+@media screen and (max-width:600px) {
   body {
     padding: 10px;
     border: medium solid black;
@@ -48,9 +51,7 @@ tbody tr:nth-of-type(odd) {background-color: rgba(0, 0, 0, 0.05);}
   }
   h1 {text-align: center;}
   p {text-align: center;}
-  .news_1 {
-    margin: 5% 0;
-  }
+  .news_1 {margin: 5% 0;}
   .news_list {display:inline;}
   .table_list {width: 70%;}
 }

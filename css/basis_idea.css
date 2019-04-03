@@ -8,7 +8,7 @@ img {
   height: 100%;
   object-fit: contain;
 }
-.news_1_2 ,.news_3_4{
+.news_1_2, .news_3_4{
   display: flex;
   flex-wrap: wrap;
 }
@@ -16,9 +16,7 @@ img {
   margin-left: 8%;
   flex: 0 0 33%;
 }
-.news_2 {
-  flex: 0 0 50%;
-}
+.news_2 {flex: 0 0 50%;}
 .news_3,.news_4 {
   margin-left: 5%;
   flex: 0 0 40%;
@@ -28,14 +26,10 @@ img {
   padding: 10px;
   border: medium solid black;
 }
-/* ウィンドウ幅が0〜479pxの場合に適用するCSS */
+
 @media screen and ( max-width:670px )
 {
   h1 {text-align: center;}
-  .news_1_2, .news_3_4 {
-    display:inline;
-  }
-  .news_1 ,.news_2,.news_3,.news_4{
-    margin: 5% 5%;
-  }
+  .news_1_2, .news_3_4 {display:inline;}
+  .news_1 ,.news_2,.news_3,.news_4{margin: 5% 5%;}
 }
